@@ -1,0 +1,186 @@
+/*o último valor sempre se sobressai*/
+/* seleciona todos os elementos da página.
+*{
+    margin: 0;
+    margin: 1;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*Justify-contet: alinha o os itens ao longo do eixo pricipal
+align-itens: alinha os itens ao longo do eixo secundário*/
+body{
+    background: linear-gradient(to top,#581313, #771e1e);
+    background-color:#A3372B;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /*color: #496d9c, #ecec7e, #053177; */
+    color: #F9CF78;
+}
+/*
+#frase-efeito{
+    font-family: "My Soul", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+header {
+    background: linear-gradient(to right,#8f1111, #e05a5a);
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*vai estilizar a imagem que está dentro do header*/
+header img{
+    margin: 15px 0px;
+    width: 150px; /*Sempre que determinar um com px, deixe o outro com auto*/
+    height: auto;  /*Pois ficará proporcional*/
+}
+#frase-efeito{
+    color:#F9CF78;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*Define as sombras do texto, Recebe quatro valores na seguinte ordem: 
+    deslocamento horizontal | deslocamento vertical | desfoque/suavização da sombra | cor */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+nav a {
+    color: #ecec7e;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 12px;
+    margin: 0px 15px;
+    text-decoration: none;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+nav a:hover{
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #F9CF78;
+    color:#530000;
+}
+main{
+    margin:20px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin: 50px;
+}
+h2{
+    color:#F9CF78;
+}
+.main-container{
+    display: flex;
+    max-width: 900px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.main-block{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    background-color: #8a2222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(255, 221, 0);
+    /*Dá uma espaçada, dando uma separada proporcional*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-block a{
+    color: #F9CF78;
+    text-decoration: none;
+    background-color: #530000;
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin: 3px 0px;
+    font-weight: 500;
+}
+.main-block a:hover{
+    color: #fff827;
+    background-color: #ff0000;
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin: 3px 0px;
+    font-weight: 500;
+}
+.trailer{
+    max-width: 900px;
+    background-color: #8a2222;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px rgb(255, 221, 0) ;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+.trailer h2{
+    margin-bottom: 8px;
+}
+.thumbnail{
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px black;
+    margin-top: 20px;
+}
+.iframe{
+    margin: 10px;
+}
+#topo {
+    margin-top: 20px;
+}
+#topo a{
+    color: #F9CF78;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#topo a:hover{
+    background-color:#ffc524;
+    border-radius: 15px;
+    color:rgb(63, 3, 3);
+    letter-spacing: 2px;
+}
+footer{
+    box-sizing: border-box;
+    padding: 15px 0px;
+    background: linear-gradient(to left,#8f1111, #e05a5a);
+    text-align: center;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 5px;
+    /*define efeitos de trarnsição entre estado*/
+    transition: transform 0.2s ease;
+    margin: 10px;
+}
+footer small{
+    color: white;
+}
+footer img:hover{
+    /*Aumenta a logo*/
+    transform: scale(1.3);
+}

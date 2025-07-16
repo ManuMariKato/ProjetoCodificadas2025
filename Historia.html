@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Quem criou o site-->
+    <meta name="author" content="Manuela Mari">
+    <!--As keywords são as palavras chaves que são utilizadas para achar o site na web-->
+    <meta name="keywords" content="Mulan, Mushu, História">
+    <!--Descrição que fica embaixo do site quando pesquisamos-->
+    <meta name="description" content="Nesse site fala sobre a história da Mulan">
+    <link rel="icon" href="img/Icone.png" type="image.webp">
+    <link rel="stylesheet" href="css/historia.css">
+    <title>História - Mulan</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/nomemulan-removebg-preview (2).png" alt="Logo do nome da Mulan"></a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="Historia.html">História</a>
+            <a href="Personagens.html">Personagens</a>
+            <a href="playlist.html">Playlist</a>
+        </nav>
+    </header>
+    <main>
+        <p id="frase-efeito"><em> Um grão de arroz pode virar a balança. </em></p>
+        <h1> MULAN</h1>
+        <!--Tópicos da nossa página-->
+        <div class="topicos-link">
+            <a href="#intro">Introdução</a>
+            <a href="#Curiosidades">Curiosidades</a>
+            <a href="#enredo">Enredo</a>
+            <a href="#ambientacao">Ambientação</a>
+        </div>
+        <!--A section é uma div, porém ela é mais semântica-->
+        <section class="topicos">
+            <!--Utilizamos o article junto com a section, não podemos utilizar ela sem o section pois será semânticamente incorreto-->
+            <article>
+                <h2 id="intro">Introdução</h2>
+                <!--Foi utilizado um 'lorem100' para que gere um texto automático-->
+                <p> 
+                    Em meio a uma guerra na China antiga, Mulan, uma jovem destemida, decide se disfarçar de homem para tomar o lugar de seu pai doente no exército. 
+                    Desafiando as tradições e os papéis impostos às mulheres, ela embarca em uma jornada de coragem e autossuperação.
+                     Ao lutar para proteger sua família e sua pátria, Mulan prova que a verdadeira força vem de ser fiel a si mesma.
+                </p>
+                <!--A figure é útilizada para exibir uma imagem com uma legenda de forma autônoma, usando corretamente o sentido semântico-->
+                <!--Primeira imagem da página-->
+                <figure>
+                    <img src="img/trailermulan.jpg" alt="capa do trailer da mulan">
+                    <!--Legenda da figure-->
+                    <figcaption><small><em>Você se esquece de que ela é uma menina, não um menino.</em></small></figcaption>
+                </figure>
+                <!--Utilizado outro Lorem-->
+                <p>
+                   Durante o treinamento militar, Mulan enfrenta desafios físicos e emocionais, 
+                   esforçando-se para esconder sua identidade e conquistar o respeito dos companheiros.
+                   Com inteligência, determinação e habilidade, 
+                   ela se destaca no campo de batalha, surpreendendo a todos. À medida que o perigo aumenta e a verdade ameaça ser revelada, 
+                   Mulan precisa decidir entre manter sua farsa ou lutar como quem realmente é. 
+                   Sua bravura não só muda o rumo da guerra,mas também transforma a visão sobre o papel das mulheres na sociedade, 
+                   mostrando que a honra verdadeira está em ser autêntico e lutar pelo que se acredita.
+                </p>
+            </article>
+            <article>
+                <h2 id="Curiosidades">Mais sobre o Filme na animação</h2>
+                <p> Saiba mais sobre o universo de Mulan e algumas curiosidades que podem ser interessantes saber sobre a animação.</p>
+                <div class="table-responsive">
+                    <table border="1">
+                        <!--faz parte do cabeçalho da tabela-->
+                        <thead>
+                            <!--linha da tabela-->
+                            <tr>
+                                <!--Conteúdo da linha header-->
+                                <th> Ano de lançamento </th>
+                                <th> Diretores</th>
+                                <th> Gênero</th>
+                                <th> Canções famosas</th>
+                                <th> Baseado em</th>
+                                <th> Resumo da história</th>
+                                <th> Prêmios/Relevância</th>
+                            </tr>
+                        </thead>
+                        <!--faz parte do corpo da tabela-->
+                        <tbody>
+                            <!--linha da tabela-->
+                            <tr>
+                                <!--Conteúdo da linha body e foot-->
+                                <td> 1998</td>
+                                <td> Tony Bancroft</td>
+                                <td> Animação</td>
+                                <td> “Reflection” – cantada por Lea Salonga (original) e Christina Aguilera</td>
+                                <td> Lenda chinesa de Hua Mulan</td>
+                                <td> Mulan se disfarça de homem para entrar no exército no lugar do pai doente</td>
+                                <td> Indicado ao Oscar de Melhor Trilha Sonora Original </td>
+                            </tr>
+                            <tr>
+                                <td> Estreou nos cinemas dos Estados Unidos em 19 de junho de 1998</td>
+                                <td> Barry Cook </td>
+                                <td> Aventura</td>
+                                <td> “I'll Make a Man Out of You” – interpretada por Donny Osmond</td>
+                                <td> História de uma jovem que se disfarça de homem para lutar</td>
+                                <td> Treina com dificuldade, mas conquista o respeito dos companheiros</td>
+                                <td> Indicado ao Globo de Ouro e ao Annie Awards</td>
+                            </tr>
+                            <tr>
+                                <td> Lançamento no Brasil ocorreu em 18 de dezembro de 1998</td>
+                                <td> Ambos veteranos da animação na Disney</td>
+                                <td> Musical com elementos de comédia e drama</td>
+                                <td> “Honor to Us All” – que introduz o papel tradicional da mulher na história</td>
+                                <td> Adaptação livre com elementos culturais ocidentais e orientais</td>
+                                <td> Salva a China ao derrotar os invasores hunos com inteligência e bravura</td>
+                                <td> Reconhecido como marco na representatividade asiática em animações </td>
+                            </tr>
+                        </tbody>
+                        <!--faz parte do rodapé da tabela-->
+                        <tfoot>
+                            <!--linha da tabela-->
+                            <tr>
+                                <!--Conteúdo da linha body e foot-->
+                                <!--O coldspan vai agrupar as células, no caso agrupa 2-->
+                                
+                                <td width="16%" rowspan="3" colspan="7" align="center" >Personagens: <a href="Mulan.html" target="_self">clique aqui</a></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </article>
+            <article>
+                <h2 id="enredo">Acontecimentos marcantes do filme</h2>
+                <h3>Animação</h3>
+                <figure>
+                    <img src="img/mulancomespada.jpg" alt="Mulan com uma expressão brava apontando uma espada">
+                </figure>
+                <ol>
+                    <li>"Talvez eu apenas não seja feita para agradar esse tipo de papel..."</li>
+                    <li>"Honra... eu trarei honra para nós todos."</li>
+                    <li>"Desonra para você, desonra para sua vaca!" – Mushu</li>
+                    <li>"Vamos ver se consegue fazer de um homem... você!" – Capitão Shang</li>
+                    <li>"Você disse que confiava em mim."</li>
+                    <li>"Você salvou todos nós. Uma mulher como você não aparece todo dia."</li>
+                </ol>
+                <h3>Live action</h3>
+                <figure>
+                    <img src="img/live-action-mulan-disney.webp" alt="Mulan no live action segurando uma espada">
+                </figure>
+                <ul>
+                    <li>“Lealdade. Coragem. Verdade.”</li>
+                    <li>“Mulan, não tente ser alguém que você não é.” – Pai de Mulan</li>
+                    <li>“Esconda seu dom e não será punida.” – A bruxa Xian Lang</li>
+                    <li>“Eu sou Hua Mulan. Eu trago desonra para ninguém.”</li>
+                    <li> “A verdadeira coragem é conhecer quem você realmente é.” – Imperador</li>
+                    <li>“Você não é filha de um guerreiro. Você é um guerreiro.”</li>
+                </ul>
+            </article>
+            <article>
+                <h2 id="ambientacao">Ambientação</h2>
+                <p>
+                    A animação Mulan se passa na antiga China, durante uma época de guerras e invasões. O Império Chinês enfrenta a ameaça dos hunos, 
+                    liderados por Shan Yu, que atravessam a Muralha da China. A história começa em uma aldeia tradicional, com casas simples e rituais familiares,
+                    e se desenvolve em diversos cenários, como campos de treinamento militar, montanhas cobertas de neve e a imponente Cidade Imperial. 
+                    A ambientação mistura elementos históricos e culturais chineses, como arquitetura, vestimentas, tradições e valores como honra e lealdade, criando um pano de fundo rico para a jornada heroica de Mulan.
+                </p>
+            </article>
+        </section>
+        <p id="topo"><a href="#">&#128050; vá ao topo junto com mushu &#127982;</a></p>
+    </main>
+
+    <footer>
+        <small>&copy; 2025 Disney e empresas afiliadas. Todos os direitos reservados.</small>
+        <div class="iconesredes">
+            <a href="https://www.primevideo.com/-/pt/detail/Mulan/0LH1NBF144IL4VCAWDZPTTBZKH" alt="Prime video"><img src="img/primevideobranco-removebg-preview.png" alt="Prime video"></a>
+            <a href="https://www.disney.com.br/disneyplus/mulan" target="_blank" alt="Logo disney"><img src="img/disneylogobranco-removebg-preview.png"></a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/disney/&ved=2ahUKEwiI44W9g6uOAxXvqpUCHQT5PI4QFnoECAwQAQ&usg=AOvVaw1ghkidnEHjcPa6OsV-XF6F" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://x.com/disney" target="_blank"><img src="img/social-media.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/watch?v=viiIkkt3zgI" target="_blank"><img src="img/youtube.png" alt="Youtube"></a>
+        </div>
+    </footer>
+</body>
+</html>

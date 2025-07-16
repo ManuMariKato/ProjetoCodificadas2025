@@ -1,0 +1,171 @@
+/*o último valor sempre se sobressai*/
+/* seleciona todos os elementos da página.
+*{
+    margin: 0;
+    margin: 1;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=My+Soul&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #093f30;
+    background-image: url("../img/fundo_verde_mulan_60.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /*color: #496d9c, #ecec7e, #053177; */
+    color: #28483D;
+}
+/*
+#frase-efeito{
+    font-family: "My Soul", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+header {
+    /**/
+    background: linear-gradient(to left,#26d3a2, #0d4b35);
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*vai estilizar a imagem que está dentro do header*/
+header img{
+    margin: 15px 0px;
+    width: 150px; /*Sempre que determinar um com px, deixe o outro com auto*/
+    height: auto;  /*Pois ficará proporcional*/
+}
+#frase-efeito{
+    color:#26d3a2;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*Define as sombras do texto, Recebe quatro valores na seguinte ordem: 
+    deslocamento horizontal | deslocamento vertical | desfoque/suavização da sombra | cor */
+    text-shadow: 1px 1px 2px rgba(0, 56, 42, 0.9);
+}
+nav a {
+    color: #ecec7e;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 12px;
+    margin: 0px 15px;
+    text-decoration: none;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+nav a:hover{
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #04b8a0;
+    color:#00ffdd;
+}
+main{
+    margin:20px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    color:#00ffb7;
+    text-shadow: #024a35;
+}
+h2{
+    color:#1A4E37;
+}
+
+#musicas-marcantes{
+    color: #05ffb8;
+    text-shadow: 1px 1px 2px #0a916f;
+    margin: 20px 0px;
+}
+.video-gallery{
+    display: flex;
+    max-width: 900px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #0a906a;
+    box-shadow: 0px 0px 5px #00ffbf;
+    border-radius: 15px;
+}
+.video-container img{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    background-size: cover;
+    transition: transform 0.2s ease;
+    margin-bottom: 10px;
+}
+.video-container img:hover{
+    transform: scale(1.1);
+}
+.video-container a{
+    text-decoration: none;
+    color:#023728;
+}
+.video-title{
+    color: white;
+}
+#topo {
+    margin-top: 20px;
+}
+#topo a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#topo a:hover{
+    color: black;
+    background-color: #05ffb8;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+footer small{
+    color: white;
+}
+footer{
+    box-sizing: border-box;
+    padding: 15px 0px;
+    background: linear-gradient(to right,#26d3a2, #0d4b35);
+    text-align: center;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 5px;
+    /*define efeitos de trarnsição entre estado*/
+    transition: transform 0.2s ease;
+    margin: 10px;
+}
+footer img:hover{
+    /*Aumenta a logo*/
+    transform: scale(1.3);
+}

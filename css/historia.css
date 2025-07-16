@@ -1,0 +1,293 @@
+/*o último valor sempre se sobressai*/
+/* seleciona todos os elementos da página.
+*{
+    precisa definir o tamanho do modelo de caixa, no caso o border-box;
+
+    box-sizing: border-box;
+
+    ordem de sentido:
+    1º top
+    2º right
+    3º bottom
+    4º left
+
+    -> se colocar um valor, será aplicado para todos os lados.
+    -> se colocar dois valores, o primeiro valor é para o top e bottom
+       e o segundo para o right e left.
+    -> se aplicarmos 4 valor, todos podem ser distintos.
+
+    tem como escrever eles de maneira separada
+
+    margin-bottom: 2px;
+    margin-left: 10px;
+
+    ou de forma contraída
+
+    margin: 0px 0px 2px 10px;
+
+    ordem do box model, sendo de mais interno para mais externo
+
+    1 º content
+    2 º padding
+    3 º border
+    4 º margin
+
+    A borda ela pecisa de 3 valores: espessura, estilo e cor.
+    ex: border: 10px dotted black;
+
+    
+}
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background-image: url("../img/FUNDO_AZUL.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;*/
+    background: linear-gradient(to top,#10203F,#233857);
+    background-color:#a2c6ff;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /*color: #496d9c, #ecec7e, #053177; */
+    color: white;
+}
+/*
+#frase-efeito{
+    font-family: "My Soul", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+header {
+    /**/
+    background: linear-gradient(to right,#0012b6, #828aff);
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*vai estilizar a imagem que está dentro do header*/
+header img{
+    margin: 15px 0px;
+    width: 150px; /*Sempre que determinar um com px, deixe o outro com auto*/
+    height: auto;  /*Pois ficará proporcional*/
+}
+#frase-efeito{
+    text-align: center;
+    color: #F9CF78;
+    text-shadow: 2px 2px 2px rgba(255, 187, 0, 0.9);
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*Define as sombras do texto, Recebe quatro valores na seguinte ordem: 
+    deslocamento horizontal | deslocamento vertical | desfoque/suavização da sombra | cor */
+}
+nav a {
+    color: #ecec7e;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 12px;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #F9CF78;
+    color:#1D324F;
+}
+main{
+    margin:20px;
+    text-align: center;
+}
+h1{
+    margin: 20px 0px;
+    color: #F9CF78;
+    text-shadow: 2px 2px 2px rgba(255, 187, 0, 0.9);
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    color:#1D324F;
+}
+h3{
+    color: white;
+    margin-top: 15px;
+}
+
+#intro{
+    margin: 15px 0px;
+    color: #F9CF78;
+    text-shadow:2px 2px 2px rgba(255, 187, 0, 0.9);
+}
+figure img{
+    margin: 20px 0px;
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+figcaption{
+    margin-bottom: 15px;
+    color: #F9CF78;
+    font-size: 0.9rem;
+}
+.topicos-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.topicos-link a{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F9CF78;
+    padding: 10px;
+    background-color: #138dff;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.topicos-link a:hover{
+    background-color: white;
+    color: #138dff;
+    border-radius: 20px;
+}
+
+.table-responsive{
+    width: 100%;
+    overflow-x:auto;
+    margin: 20px 0px;
+}
+
+table{
+    /*Deixa a borda em uma só, não deixa com 2 linhas*/
+    border-collapse:collapse;
+    text-align: center;
+}
+
+#Curiosidades{
+    color:#F9CF78;
+    text-shadow: 2px 2px 2px rgba(255, 187, 0, 0.9);
+    margin-bottom: 15px;
+}
+th{
+    background-color: #153259;
+    color: #F9CF78;
+    padding: 10px;
+}
+td{
+    background-color: #214d88;
+    color:white;
+    padding: 10px;
+}
+td a{
+    color: #214d88;
+    background-color: #F9CF78;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+td a:hover{
+    color: #F9CF78;
+    background-color: #153259;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+ol{
+    text-align: left;
+    color: #ebe3ff;
+    list-style-position: inside;
+    margin: 10px 0px;
+}
+ul{
+    text-align: left;
+    color: #ffffff;
+    list-style-position: inside;
+    margin: 10px 0px;
+}
+li{
+    margin: 8px 0px;
+}
+#enredo{
+    color:#F9CF78;
+    text-shadow: 2px 2px 2px rgba(255, 187, 0, 0.9);
+
+}
+#ambientacao{
+    color:#F9CF78;
+    text-shadow: 2px 2px 2px rgba(255, 187, 0, 0.9);
+    margin: 15px 0px;
+}
+#topo {
+    margin-top: 20px;
+}
+#topo a{
+    text-align: center;
+    color:#F9CF78;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#topo a:hover{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: #138dff;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+footer{
+    box-sizing: border-box;
+    padding: 15px 0px;
+    background: linear-gradient(to left,#0012b6, #828aff);
+    text-align: center;
+}
+footer small{
+    color: white;
+    margin-bottom: 5px;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+    /*define efeitos de trarnsição entre estado*/
+    transition: transform 0.2s ease;
+    margin: 10px;
+}
+footer img:hover{
+    /*Aumenta a logo*/
+    transform: scale(1.3);
+}
+/*Media queries, dentro do parênteses é a condição*/
+@media (max-width: 480px) {
+    /*A figura vai se adaptar ao tamanho da tela*/
+    figure img{
+        width: 100%;
+    }
+}
+/*@media (condição){ 
+    seletor{
+        propriedade:valor
+    }
+}
+*/
