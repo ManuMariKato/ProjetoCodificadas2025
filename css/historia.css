@@ -33,9 +33,7 @@
     4 º margin
 
     A borda ela pecisa de 3 valores: espessura, estilo e cor.
-    ex: border: 10px dotted black;
-
-    
+    ex: border: 10px dotted black;  
 }
 */
 
@@ -48,11 +46,6 @@
 }
 
 body{
-    /*background-image: url("../img/FUNDO_AZUL.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;*/
     background: linear-gradient(to top,#10203F,#233857);
     background-color:#a2c6ff;
     font-family: "Work Sans", sans-serif;
@@ -62,15 +55,7 @@ body{
     /*color: #496d9c, #ecec7e, #053177; */
     color: white;
 }
-/*
-#frase-efeito{
-    font-family: "My Soul", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-*/
 header {
-    /**/
     background: linear-gradient(to right,#0012b6, #828aff);
     padding: 20px 0px;
     display: flex;
@@ -121,7 +106,6 @@ h1{
     text-align: center;
     font-size: 40px;
 }
-
 h2{
     color:#1D324F;
 }
@@ -153,7 +137,6 @@ figcaption{
     flex-wrap: wrap;
     gap: 7px;
 }
-
 .topicos-link a{
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
@@ -170,19 +153,16 @@ figcaption{
     color: #138dff;
     border-radius: 20px;
 }
-
 .table-responsive{
     width: 100%;
     overflow-x:auto;
     margin: 20px 0px;
 }
-
 table{
     /*Deixa a borda em uma só, não deixa com 2 linhas*/
     border-collapse:collapse;
     text-align: center;
 }
-
 #Curiosidades{
     color:#F9CF78;
     text-shadow: 2px 2px 2px rgba(255, 187, 0, 0.9);
@@ -203,16 +183,13 @@ td a{
     background-color: #F9CF78;
     text-decoration: none;
     border-radius: 10px;
-    
 }
 td a:hover{
     color: #F9CF78;
     background-color: #153259;
     text-decoration: none;
     border-radius: 10px;
-
 }
-
 ol{
     text-align: left;
     color: #ebe3ff;
