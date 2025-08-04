@@ -19,6 +19,10 @@
 </p>
 
 ---
+
+> [!IMPORTANT]
+> <strong> This project is for educational purposes only. </strong> There are no intentions of selling or stealing.
+---
 ## 🎗 About CodificADAs - USP
 " `CodificADAs - USP` is a project that develops teaching and outreach activities in computer science for elementary and high school students, mainly from public schools. Our goal is to promote female inclusion in higher education computer science courses and contribute to combating gender inequality in the field. Teachers and students from the University of São Paulo (USP) participate in the project." - Projeto Codificadas
 
@@ -40,5 +44,4 @@ and a playlist with the memorable songs featured in the animation. In addition, 
     title="Processo" 
     src="https://img.shields.io/badge/Created%20in%20Codificadas%20winter%20edition%202025-F587C4"
 />
-
 
