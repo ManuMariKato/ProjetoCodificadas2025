@@ -8,12 +8,12 @@
         <img 
             alt="Process_completed" 
             title="Processo" 
-            src="https://img.shields.io/badge/Process-Completed-green"
+            src="https://img.shields.io/badge/Process-Completed-F567B0"
         />
           <img 
             alt="Release_date" 
             title="Release_date" 
-            src="https://img.shields.io/badge/Release date-July-red"
+            src="https://img.shields.io/badge/Release date-July-23C6F5"
         />
     </a>
 </p>
@@ -38,7 +38,7 @@ and a playlist with the memorable songs featured in the animation. In addition, 
 - `CSS`
 
 ---
-## CodificADAS edition
+## 🎀 CodificADAS edition
 <img 
     alt="Process_completed" 
     title="Processo" 
