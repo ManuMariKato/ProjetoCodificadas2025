@@ -22,7 +22,7 @@
 
 > [!IMPORTANT]
 > <strong> This project is for educational purposes only. </strong> There are no intentions of selling or stealing.
----
+
 ## 🎗 About CodificADAs - USP
 " `CodificADAs - USP` is a project that develops teaching and outreach activities in computer science for elementary and high school students, mainly from public schools. Our goal is to promote female inclusion in higher education computer science courses and contribute to combating gender inequality in the field. Teachers and students from the University of São Paulo (USP) participate in the project." - Projeto Codificadas
 
@@ -32,10 +32,13 @@ This project is a page about `Mulan - Disney`, one of my favorite princesses. Ea
 and a playlist with the memorable songs featured in the animation. In addition, the main page features the trailer for the live-action movie!
 
 ---
+
 ## 🔌 Technologies used
 
-- `HTML`
-- `CSS`
+<div>
+  <img src="https://img.shields.io/badge/HTML-f542c8?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS-23C6F5?&style=for-the-badge&logo=css&logoColor=white">
+</div>
 
 ---
 ## 🎀 CodificADAS edition
